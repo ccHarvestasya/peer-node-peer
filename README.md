@@ -7,7 +7,7 @@
 ## SymbolSDK をインストール
 
 ```
-pip install symbol-sdk-python pyopenssl
+pip install symbol-sdk-python
 ```
 
 ## peer-node-peer と certtool をクローン
