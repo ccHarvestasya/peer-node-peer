@@ -1,6 +1,6 @@
-# peer-node-info
+# peer-node-peer
 
-ピアノードのノード情報を取得する
+ピアノードのピア情報を取得する
 
 # 準備
 
@@ -10,17 +10,17 @@
 pip install symbol-sdk-python pyopenssl
 ```
 
-## peer-node-info と certtool をクローン
+## peer-node-peer と certtool をクローン
 
 ```
-git clone https://github.com/ccHarvestasya/peer-node-info.git
+git clone https://github.com/ccHarvestasya/peer-node-peer.git
 git clone https://github.com/ccHarvestasya/symbol-node-configurator.git
 ```
 
 ## CA プライベートキー生成
 
 ```
-cd peer-node-info
+cd peer-node-peer
 openssl genpkey -algorithm ed25519 -outform PEM -out ca.key.pem
 ```
 
