@@ -2,7 +2,6 @@ import os
 import sys
 import socket
 import ssl
-import OpenSSL
 from pathlib import Path
 from symbolchain.BufferReader import BufferReader
 from symbolchain.BufferWriter import BufferWriter
